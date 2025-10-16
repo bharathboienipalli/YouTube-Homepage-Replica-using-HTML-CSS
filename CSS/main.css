@@ -1,25 +1,31 @@
 .main-content{
 	margin-top:85px;
-	margin-left:95px;	
+	/*margin-left:95px;*/	
 	display:inline-block;
+	margin-right:-40px;
 }
 
 
 .video-grid{
-	display:grid;
+	/*display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	row-gap:8px;
-	column-gap:18px;
+	column-gap:18px;*/
+	display:inline;
 }
+
 
 body{
 	font-family:Arial;
 	background-color:rgb(249,249,249);
 }
 .video-content{
+	display:inline-block;
 	margin-bottom:35px;
-	margin-right:0;
+	margin-right:11px;
 }
+
+
 .video-pic>img{
 	height:180px;
 	margin-bottom:10px;
