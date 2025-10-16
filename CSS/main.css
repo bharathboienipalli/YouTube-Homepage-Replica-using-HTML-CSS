@@ -1,25 +1,30 @@
 .main-content{
 	margin-top:85px;
-	margin-left:95px;	
+	margin-left:150px;	
 	display:inline-block;
 }
 
 
 .video-grid{
-	display:grid;
+	/*display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	row-gap:8px;
-	column-gap:18px;
+	column-gap:18px;*/
+	display:inline-block;
 }
+
 
 body{
 	font-family:Arial;
 	background-color:rgb(249,249,249);
 }
 .video-content{
+	display:inline-block;
 	margin-bottom:35px;
-	margin-right:0;
+	margin-right:0px;
 }
+
+
 .video-pic>img{
 	height:180px;
 	margin-bottom:10px;
@@ -68,5 +73,54 @@ a{
 	font-size:13px;
 	margin-bottom:0;
 	color:gray;
+}
 
+/* ===== Responsive Grid Fix for main.css ===== */
+
+/* Default (Desktop) */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+/* Large Laptops / Tablets */
+@media (max-width: 1200px) {
+  .video-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .video-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .video-card img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .video-info {
+    flex: 1;
+  }
 }
