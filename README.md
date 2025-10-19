@@ -54,12 +54,11 @@ Here’s a glimpse of the homepage design:
 
 ## 🌐 Live Demo
 
-👉 
+👉 https://youtube-clone-bharath.vercel.app/
 
 ---
 
 ## 🧑‍💻 Author
 
 **B BHARATH KUMAR REDDY**  
-📧 bharathboienipalli@gmail.com  
-🔗 https://b-bharath-kumar-reddy-portfolio.vercel.app/
+📧 bharathboienipalli@gmail.com 
